@@ -11,6 +11,8 @@ Then open cmd on that file and run the following command to upload the kafka clu
  ```sh
    docker-compose up -d
    ```
+   
+If the command is not working, please make sure you have renamed the file after downloading it to 'docker-compose.yml'.   
 After that you should make sure that docker has downloaded the correct Images (check Images tab) and that there is a kafka cluster composed of 4 containers ( the zookeeper and 3 kafka brokers, check Containers tab).
 
 If everything went right, the servers should be running already. In case they exited check the logs by clicking in the server that have stopped working.
