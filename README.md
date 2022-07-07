@@ -7,7 +7,7 @@ If you don't have docker already installed, download it from docker's website. M
 
 After you have successfully downloaded docker on your pc, create a folder and save the following [docker-compose file](https://github.com/bitnami/bitnami-docker-kafka/blob/master/docker-compose-cluster.yml) as 'docker-compose.yml'
 
-Then open cmd on that file and run the following command to upload the kafka cluster on your docker:
+Then open cmd on that folder and run the following command to upload the kafka cluster on your docker:
  ```sh
    docker-compose up -d
    ```
